@@ -22,29 +22,20 @@ A new line is entered normally.
 Here we plot some beaked whale encounter data. 
 
 
+```r
+library(ggplot2)
+```
+
 ```
 ## Warning: package 'ggplot2' was built under R version 4.0.5
+```
+
+```r
+library(dplyr)
 ```
 
 ```
 ## Warning: package 'dplyr' was built under R version 4.0.5
 ```
 
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" />

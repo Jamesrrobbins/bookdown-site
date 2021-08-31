@@ -21,9 +21,13 @@ So, we can write a bit about the content here.
 A new line is entered normally. 
 Here we plot some beaked whale encounter data. 
 
-```{r echo=FALSE}
+```{r message=FALSE}
 library(ggplot2)
 library(dplyr)
+```
+
+```{r echo=FALSE}
+
 dat <- read.csv("./beakedwhaledata_withzeroes.csv")
 dat <- dat %>% mutate(bin = ifelse(SeaStateBeauf<3, "Below 3", "3 and above")) %>% filter(!is.na(bin))
 dat$Month <- as.factor(dat$month)
