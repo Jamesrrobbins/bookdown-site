@@ -1,0 +1,32 @@
+---
+title: Markdown example
+author: James Robbins
+date: '2021-08-31'
+slug: markdown-example
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-08-31T15:55:25+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+So, we can write a bit about the content here.
+A new line is entered normally. 
+Here we plot some beaked whale encounter data. 
+
+```{r echo=FALSE}
+library(ggplot2)
+dat <- read.csv("./beakedwhaledata_withzeroes.csv")
+dat <- dat %>% mutate(bin = ifelse(SeaStateBeauf<3, "Below 3", "3 and above")) %>% filter(!is.na(bin))
+dat$Month <- as.factor(dat$month)
+dat$Year <- as.factor(dat$year)
+stackedyear <- ggplot(data = dat, mapping = aes(x = Year, y = km, fill = bin))
+stackedyear
+```

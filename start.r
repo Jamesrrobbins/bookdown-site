@@ -6,3 +6,7 @@ library(blogdown)
 blogdown::serve_site() 
 blogdown::check_gitignore()
 blogdown::check_content()
+
+blogdown::new_post(title = "Markdown example", 
+                   ext = '.Rmarkdown', 
+                   subdir = "post")
