@@ -24,4 +24,4 @@ main:
     weight: 70
     - name: CV
     url: '#cv'
-    weight: 70
+    weight: 80
