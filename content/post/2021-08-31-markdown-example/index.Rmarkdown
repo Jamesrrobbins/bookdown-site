@@ -23,10 +23,12 @@ Here we plot some beaked whale encounter data.
 
 ```{r echo=FALSE}
 library(ggplot2)
+library(dplyr)
 dat <- read.csv("./beakedwhaledata_withzeroes.csv")
 dat <- dat %>% mutate(bin = ifelse(SeaStateBeauf<3, "Below 3", "3 and above")) %>% filter(!is.na(bin))
 dat$Month <- as.factor(dat$month)
 dat$Year <- as.factor(dat$year)
-stackedyear <- ggplot(data = dat, mapping = aes(x = Year, y = km, fill = bin))
+stackedyear <- ggplot(data = dat, mapping = aes(x = Year, y = km, fill = bin))+
+  geom_col()
 stackedyear
 ```
