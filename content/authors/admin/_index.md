@@ -50,4 +50,4 @@ I leverage complex statistical and geospatial analysis techniques to identify th
 
 I have been fortunate to conduct fieldwork in some amazing places, including around the UK, Ireland, California, Spain, and the Antarctic. I lived and worked in the sub-antarctic on Bird Island, South Georgia for 18 months conducting research on Antarctic fur seals and leopard seals.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
