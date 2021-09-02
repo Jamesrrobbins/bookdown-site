@@ -7,7 +7,7 @@ image:
 links:
 - icon: link
   icon_pack: fas
-  name: Follow
+  name: External link
   url: https://jamesrrobbins.shinyapps.io/Shipstrike-mitigation/
 slides: example
 summary: Saving fin whales from being hit by ships

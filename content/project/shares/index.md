@@ -5,9 +5,9 @@ image:
   caption: Example tracked investments
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
+- icon: link
+  icon_pack: fas
+  name: External link
   url: https://jamesrrobbins.shinyapps.io/Share-overview/
 slides: example
 summary: Tracking stock investments
