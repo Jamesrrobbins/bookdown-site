@@ -19,8 +19,8 @@ main:
   - name: Publications
     url: '#featured'
     weight: 50
-  - name: Courses
-    url: courses/
+  - name: Shiny
+    url: '#shiny'
     weight: 60
   - name: Contact
     url: '#contact'
