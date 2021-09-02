@@ -22,12 +22,12 @@ twitter: ''
 
 email: James.Robbins@port.ac.uk
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: Institute of Marine Science, Ferry Road
+  city: Portsmouth
+  region: Hampshire
+  postcode: 'PO4 9LY'
+  country: United Kingdom
+  country_code: UK
 coordinates:
   latitude: '50.79450082857895'
   longitude: '-1.0302094979633691'
