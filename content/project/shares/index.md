@@ -13,6 +13,7 @@ slides: example
 summary: Tracking stock investments
 tags:
 - Finance
+- Shiny
 title: Stock tracker
 url_code: ""
 url_pdf: ""

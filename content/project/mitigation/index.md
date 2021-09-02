@@ -13,6 +13,7 @@ slides: example
 summary: Saving fin whales from being hit by ships
 tags:
 - Ecology
+- Shiny
 title: Saving whales
 url_code: ""
 url_pdf: ""
