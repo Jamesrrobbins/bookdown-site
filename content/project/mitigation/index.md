@@ -5,8 +5,8 @@ image:
   caption: Example app output
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
+- icon: link
+  icon_pack: fas
   name: Follow
   url: https://jamesrrobbins.shinyapps.io/Shipstrike-mitigation/
 slides: example
