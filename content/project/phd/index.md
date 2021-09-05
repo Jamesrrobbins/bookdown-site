@@ -13,7 +13,7 @@ slides: example
 summary: Investigating cetaceans hit by ships
 tags:
 - Ecology
-- Shiny
+- Conservation
 title: PhD - Ship strikes
 url_code: ""
 url_pdf: ""
