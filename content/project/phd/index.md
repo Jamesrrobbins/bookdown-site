@@ -12,7 +12,6 @@ links:
 slides: 
 summary: Investigating risk to cetaceans from ship collisions
 tags:
-- Ecology
 title: PhD : Ship strikes 
 url_code: ""
 url_pdf: ""
