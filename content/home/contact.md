@@ -7,14 +7,14 @@ widget: contact
 headless: true
 
 # Order that this section appears on the page.
-weight: 130
+weight: 80
 
 title: Contact
 subtitle:
 
 content:
   # Automatically link email and phone or display as text?
-  autolink: true
+  autolink: false
   
   # Email form provider
   form:
