@@ -1,5 +1,5 @@
 ---
-title: Personal website
+title: New website made with blogdown
 author: ''
 date: '2021-08-31'
 slug: personal-website
@@ -8,7 +8,7 @@ tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-08-31T12:30:08+01:00'
+lastmod: '2021-09-05T12:30:08+01:00'
 featured: no
 image:
   caption: ''
@@ -16,30 +16,6 @@ image:
   preview_only: no
 projects: []
 ---
-Some general blog text here
-
-```r
-summary(Orange)
-```
-
-```
-##  Tree       age         circumference  
-##  3:7   Min.   : 118.0   Min.   : 30.0  
-##  1:7   1st Qu.: 484.0   1st Qu.: 65.5  
-##  5:7   Median :1004.0   Median :115.0  
-##  2:7   Mean   : 922.1   Mean   :115.9  
-##  4:7   3rd Qu.:1372.0   3rd Qu.:161.5  
-##        Max.   :1582.0   Max.   :214.0
-```
-
-
-```
-## Warning: package 'ggplot2' was built under R version 4.0.5
-```
-
-```
-## Warning: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> =
-## "none")` instead.
-```
-
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" />
+I figured I'd I'd make a new personal website to showcase my work. This website was created using blogdown in R, with Hugo themes and hosted via GitHub and Netlify. I largely followed two walkthroughs: 
+-link
+-link
