@@ -33,6 +33,8 @@ content:
     tag: Ecology
   - name: Finance
     tag: Finance
+  - name: Conservation
+    tag: Conservation
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

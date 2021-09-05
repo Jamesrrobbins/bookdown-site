@@ -8,7 +8,7 @@ links:
 - icon: link
   icon_pack: fas
   name: External link
-  url: https://jamesrrobbins.shinyapps.io/Share-overview/
+  url: 
 slides: example
 summary: Tracking stock investments
 tags:
@@ -20,6 +20,5 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-This page tracks investments in stocks over time, including dividend returns. 
+This page tracks investments in stocks over time, including dividend returns. Currently password protected, but an example app will be available soon. 
 
-Access here: https://jamesrrobbins.shinyapps.io/Share-overview/
