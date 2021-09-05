@@ -10,8 +10,10 @@ links:
   name: 
   url:
 slides: 
-summary: Investigating risk to cetaceans from ship collisions
+summary: Investigating cetaceans hit by ships
 tags:
+- Ecology
+- Shiny
 title: PhD : Ship strikes 
 url_code: ""
 url_pdf: ""
