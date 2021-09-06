@@ -16,6 +16,16 @@ image:
   preview_only: no
 projects: []
 ---
-I figured I'd I'd make a new personal website to showcase my work. This website was created using blogdown in R, with Hugo themes and hosted via GitHub and Netlify. I largely followed two walkthroughs: 
--link
--link
+Welcome to my new website! I have been toying with the idea of creating a personal website to showcase my work and interests for several years. I've started several websites using blogspot, wordpress and Wix, but none stuck. 
+This time I've really enjoyed the development process, and I think it is because I've been using R to create. I use R on a daily basis for my work, and enjoy tackling problems with the powerful solutions it provides. This website uses the blogdown package and Academic Hugo theme. 
+
+There are already several great demonstrations of how to get up and running with blogdown, so instead of repeating a tutorial I will link to some of the resources that I found useful. 
+- Annie Lyu's brilliant primer: https://annielyu.com/2020/01/12/blogdown-website/
+- Alison Hill's great introduction: https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/
+
+My workflow is as follows:
+-Change template files, set up configurations and personalize everything in R
+-Write blog posts (like this!) in markdown
+-Push everything to a github repo
+-Integrate with Netlify (https://www.netlify.com/)
+-Showcase the Netlify hosted site with a Google domain.
