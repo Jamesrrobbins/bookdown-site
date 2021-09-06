@@ -24,8 +24,8 @@ There are already several great demonstrations of how to get up and running with
 - Alison Hill's great introduction: https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/
 
 My workflow is as follows:
--Change template files, set up configurations and personalize everything in R
--Write blog posts (like this!) in markdown
--Push everything to a github repo
--Integrate with Netlify (https://www.netlify.com/)
--Showcase the Netlify hosted site with a Google domain.
+- Change template files, set up configurations and personalize everything in R
+- Write blog posts (like this!) in markdown
+- Push everything to a github repo
+- Integrate with Netlify (https://www.netlify.com/)
+- Showcase the Netlify hosted site with a Google domain.
