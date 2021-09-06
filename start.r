@@ -7,4 +7,6 @@ blogdown::serve_site()
 blogdown::check_gitignore()
 blogdown::check_content()
 
-#testing committ
+library(bib2academic)
+library(bibtex)
+bib2acad("citations.bib", copybib = TRUE, abstract = TRUE, overwrite = TRUE)
