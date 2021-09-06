@@ -12,7 +12,7 @@ main:
     weight: 20
   - name: Blog
     url: '#posts'
-    weight: 70
+    weight: 60
   - name: Projects
     url: '#projects'
     weight: 30
@@ -21,4 +21,4 @@ main:
     weight: 50
   - name: Gallery
     url: '#gallery'
-    weight: 60 
+    weight: 70 
