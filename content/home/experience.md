@@ -40,7 +40,7 @@ experience:
   - title: Associate Editor
     company: Marine Biodiversity Records
     company_url: ''
-    company_logo: org-pbcs
+    company_logo: org-mbr
     location: Plymouth, UK
     date_start: '2015-12-01'
     date_end: ''
@@ -49,7 +49,7 @@ experience:
   - title: Visiting Researcher
     company: University of Plymouth
     company_url: ''
-    company_logo: org-pbcs
+    company_logo: org-plym
     location: Plymouth, UK
     date_start: '2015-05-01'
     date_end: '2020-05-01'
