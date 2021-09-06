@@ -22,6 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
@@ -35,23 +36,24 @@ experience:
         * Investigating spatio-temporal changes in shipping intensity and ecological impacts
         * Estimating co-occurrence of cetaceans and vessels in the north-east Atlantic
         * Simulating mitigation measures to save fin whales from fatal collisions
-        * Understanding vessel crews' experience and opinions on mitigation measures
- - title: Associate Editor
+        * Understanding vessel crews' experience and opinions on mitigation measures 
+  - title: Associate Editor
     company: Marine Biodiversity Records
     company_url: ''
     company_logo: org-pbcs
     location: Plymouth, UK
     date_start: '2015-12-01'
     date_end: ''
-    description: As associate editor, I handle manuscripts focusing on marine mammal, shark and other marine megafauna distribution. This involves reviewing manuscripts, contact with authors and reviewers, and making publication recommendations. 
- - title: Visiting Researcher
+    description: As associate editor, I handle manuscripts focusing on marine mammal, shark and other marine megafauna distribution. This involves reviewing manuscripts, contact with authors and reviewers, and making publication recommendations.
+
+  - title: Visiting Researcher
     company: University of Plymouth
     company_url: ''
     company_logo: org-pbcs
     location: Plymouth, UK
     date_start: '2015-05-01'
     date_end: '2020-05-01'
-    description: Contract work conducting acoustic and distance sampling analysis extended to supervision of MRes students and manuscript preparation. Student projects focussed on harbour porpoise distribution modelling, ship strike risk for whales, and the response of plankton communities to climate change. 
+    description: Contract work conducting acoustic and distance sampling analysis extended to supervision of MRes students and manuscript preparation. Student projects focussed on harbour porpoise distribution modelling, ship strike risk for whales, and the response of plankton communities to climate change.
   - title: Zoological Field Assistant
     company: British Antarctic Survey
     company_url: ''
@@ -68,7 +70,7 @@ experience:
     location: The Farallon Islands, California, USA
     date_start: '2014-12-01'
     date_end: '2015-04-01'
-    description: Remote fieldwork monitoring seals, sea lions and fur seals breeding on the island, and whales and dolphins transiting through the area. 
+    description: Remote fieldwork monitoring seals, sea lions and fur seals breeding on the island, and whales and dolphins transiting through the area.
 design:
   columns: '2'
 ---
