@@ -1,14 +1,14 @@
 ---
-title: Markdown example
+title: Water depth in 3D
 author: James Robbins
-date: '2021-08-31'
-slug: markdown-example
+date: '2021-09-06'
+slug: depth-viz
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-08-31T15:55:25+01:00'
+lastmod: '2021-09-06T15:55:25+01:00'
 featured: no
 image:
   caption: ''
@@ -17,22 +17,30 @@ image:
 projects: []
 ---
 
-So, we can write a bit about the content here.
-A new line is entered normally. 
-Here we plot some beaked whale encounter data. 
+For a soon-to-be submitted paper, I was called on to look at data for a deep-diving marine mammal. Depth normally influences their distribution, so I investigated depths in the study region. 
 
+This code will bring in some depth data for an area, process this data in R, and plot it in 3D. 
 ```{r message=FALSE}
-library(ggplot2)
-library(dplyr)
+library(raster)
+library(rayshader)
+library(plotly)
 ```
-
-```{r echo=FALSE}
-
-dat <- read.csv("./beakedwhaledata_withzeroes.csv")
-dat <- dat %>% mutate(bin = ifelse(SeaStateBeauf<3, "Below 3", "3 and above")) %>% filter(!is.na(bin))
-dat$Month <- as.factor(dat$month)
-dat$Year <- as.factor(dat$year)
-stackedyear <- ggplot(data = dat, mapping = aes(x = Year, y = km, fill = bin))+
-  geom_col()
-stackedyear
+Now lets bring in our depth data. I used freely downloadable data from EMODnet (https://www.emodnet-bathymetry.eu/). This depth data will be in the form of a raster, which we can then turn into a matrix, assign an area to either be land (over 0m depth), or water (under 0 m depth)
+```{r echo=TRUE}
+depth <- raster("depth.tif")
+land_rast <- reclassify(depth, cbind(-Inf, 0, NA), right=T)
+land = raster_to_matrix(land_rast)
+water_rast <- reclassify(depth, cbind(0, Inf,NA), right=F)
+water = raster_to_matrix(water_rast)
 ```
+Okay, we have our data. Now let's plot it using plotly. We already loaded the package, so lets jump right in. 
+```{r echo=TRUE}
+fig <- plot_ly(showscale = T)
+fig <- fig %>% add_surface(z = ~water) %>% add_surface(z = ~land, opacity = 0.98, colorscale = list(c(0, 1), c("dark brown", "dark brown")))%>%
+  layout(scene = list(xaxis = list(title = 'Longitude'))) %>% layout(scene = list(yaxis = list(title = 'Latitude')))%>%
+  layout(scene = list(zaxis = list(title = 'Depth (m)')))
+fig
+```
+As it's using complex data and plotting in 3D, it will take a few seconds to render. As a bonus, plotly allows us to manipulate the plot in 3D to see it from different angles and zoom in and out. Have a look around, but bare in mind it will be a bit laggy. 
+
+So, there you have it - a simple 3D visualisation of depth data. I used this to get a better idea of the complexity of the continental shelf edge where our deep diving marine mammal friends hang out. 
