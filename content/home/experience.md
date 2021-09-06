@@ -45,7 +45,6 @@ experience:
     date_start: '2015-12-01'
     date_end: ''
     description: As associate editor, I handle manuscripts focusing on marine mammal, shark and other marine megafauna distribution. This involves reviewing manuscripts, contact with authors and reviewers, and making publication recommendations.
-
   - title: Visiting Researcher
     company: University of Plymouth
     company_url: ''
@@ -54,6 +53,16 @@ experience:
     date_start: '2015-05-01'
     date_end: '2020-05-01'
     description: Contract work conducting acoustic and distance sampling analysis extended to supervision of MRes students and manuscript preparation. Student projects focussed on harbour porpoise distribution modelling, ship strike risk for whales, and the response of plankton communities to climate change.
+  - title: Science Officer
+    company: ORCA
+    company_url: ''
+    company_logo: org-orca
+    location: Portsmouth, UK
+    date_start: '2017-10-05'
+    date_end: '2019-09-15'
+    description: Citizen science data were compiled, validated and summarised in annual reports. I managed all data throughout the lifetime, from setting up collection devices through to statistically analysing long-term datasets and leading on peer-reviewed publications and collaborations. Ship-based surveys were devised to investigate behavioural reactions of whales to oncoming ships, and citizen science surveys were led.
+
+
   - title: Zoological Field Assistant
     company: British Antarctic Survey
     company_url: ''
