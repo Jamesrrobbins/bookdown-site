@@ -24,7 +24,7 @@ role: PhD Researcher
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: mailto:james.robbins@port.ac.uk
 - display:
     header: true
   icon: twitter
