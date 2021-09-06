@@ -36,7 +36,22 @@ experience:
         * Estimating co-occurrence of cetaceans and vessels in the north-east Atlantic
         * Simulating mitigation measures to save fin whales from fatal collisions
         * Understanding vessel crews' experience and opinions on mitigation measures
-        
+ - title: Associate Editor
+    company: Marine Biodiversity Records
+    company_url: ''
+    company_logo: org-pbcs
+    location: Plymouth, UK
+    date_start: '2015-12-01'
+    date_end: ''
+    description: As associate editor, I handle manuscripts focusing on marine mammal, shark and other marine megafauna distribution. This involves reviewing manuscripts, contact with authors and reviewers, and making publication recommendations. 
+ - title: Visiting Researcher
+    company: University of Plymouth
+    company_url: ''
+    company_logo: org-pbcs
+    location: Plymouth, UK
+    date_start: '2015-05-01'
+    date_end: '2020-05-01'
+    description: Contract work conducting acoustic and distance sampling analysis extended to supervision of MRes students and manuscript preparation. Student projects focussed on harbour porpoise distribution modelling, ship strike risk for whales, and the response of plankton communities to climate change. 
   - title: Zoological Field Assistant
     company: British Antarctic Survey
     company_url: ''
