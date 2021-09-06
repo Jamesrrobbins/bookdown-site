@@ -25,26 +25,35 @@ experience:
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
-    company_logo: org-gc
-    location: California
+    company_logo: org-uop
+    location: Portsmouth, UK
     date_start: '2021-01-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        Broadly focussing on:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Investigating spatio-temporal changes in shipping intensity and ecological impacts
+        * Estimating co-occurrence of cetaceans and vessels in the north-east Atlantic
+        * Simulating mitigation measures to save fin whales from fatal collisions
+        * Understanding vessel crews' experience and opinions on mitigation measures
         
   - title: Zoological Field Assistant
     company: British Antarctic Survey
     company_url: ''
     company_logo: org-bas
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Wrestled seals, managed a lab
+    location: Bird Island, South Georgia
+    date_start: '2015-09-01'
+    date_end: '2017-04-10'
+    description: Intensive remote fieldwork monitoring Antarctic fur seals, leopard seals and southern elephant seals in the sub-Antarctic for 18 months. Working as part of a small over-wintering team of four, I helped to maintain the base, managed the laboratory and communication facilities, organised sample exports and assisted colleagues with seabird monitoring. 
 
+  - title: Research Assistant
+    company: Point Blue Conservation Science
+    company_url: ''
+    company_logo: org-pbcs
+    location: The Farallon Islands, California, USA
+    date_start: '2014-12-01'
+    date_end: '2015-04-01'
+    description: Remote fieldwork monitoring seals, sea lions and fur seals breeding on the island, and whales and dolphins transiting through the area. 
 design:
   columns: '2'
 ---

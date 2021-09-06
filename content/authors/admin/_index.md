@@ -16,6 +16,7 @@ highlight_name: false
 interests:
 - Marine mammal ecology
 - Conservation
+- Data science techniques
 - Animal behaviour
 organizations:
 - name: University of Portsmouth
