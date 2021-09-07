@@ -5,10 +5,6 @@ image:
   caption: Humpback whale dives close to a ship
   focal_point: Smart
 links:
-- icon: link
-  icon_pack: fas
-  name: External link
-  url:
 slides: example
 summary: Investigating cetaceans hit by ships
 tags:

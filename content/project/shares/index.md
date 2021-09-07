@@ -4,11 +4,6 @@ external_link: ""
 image:
   caption: Example tracked investments
   focal_point: Smart
-links:
-- icon: link
-  icon_pack: fas
-  name: External link
-  url: 
 slides: example
 summary: Tracking stock investments
 tags:
