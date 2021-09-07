@@ -47,8 +47,8 @@ title: James R Robbins
 
 I am a marine mammal biologist currently undertaking a PhD at the University of Portsmouth (UK), investigating the risk of ship collisions with whales and other cetaceans (whales, dolphins and porpoises) in the north-east Atlantic. I'm broadly interested in human-induced impacts on the marine environment, polar ecology, animal behaviour and the conservation of marine vertebrates.
 
-I leverage complex statistical and geospatial analysis techniques to identify the drivers of marine megafauna distribution, and overlap with human activities. I'm an associate editor for the journal Marine BIodiversity Records and a visiting researcher at the University of Plymouth. I am an observer at inter-governmental meetings as part of the delegation of the Advisory Committee on the Protection of the Sea (ACOPS), primarily attending OSPAR Commission, Arctic Council and International Maritime Organization meetings.
+I utilize complex statistical and geospatial analysis techniques to identify the drivers of marine megafauna distribution, and overlap with human activities. I'm an associate editor for the journal Marine BIodiversity Records and an observer at inter-governmental meetings as part of the delegation of the Advisory Committee on the Protection of the Sea (ACOPS), primarily attending OSPAR Commission, Arctic Council and International Maritime Organization meetings.
 
-I have been fortunate to conduct fieldwork in some amazing places, including around the UK, Ireland, California, Spain, and the Antarctic. I lived and worked in the sub-antarctic on Bird Island, South Georgia for 18 months conducting research on Antarctic fur seals and leopard seals.
+I am an experienced field biologist, conducting intensive marine mammal monitoring work on ships and in breeding seal colonies. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.

@@ -16,11 +16,11 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: geo-spatial analysis, data manipulation, development
+- description: geo-spatial analysis, data manipulation, development, big data
   icon: r-project
   icon_pack: fab
   name: R
-- description: 
+- description: including hierarchical Generalized Additive Models and Generalized Estimating Equations
   icon: chart-line
   icon_pack: fas
   name: Statistics
