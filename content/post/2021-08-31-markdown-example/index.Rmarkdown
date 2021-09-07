@@ -1,14 +1,14 @@
 ---
 title: Water depth in 3D
 author: James Robbins
-date: '2021-09-06'
+date: '2021-09-07'
 slug: depth-viz
 categories: []
-tags: []
+tags: [R, Bay of Biscay]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-09-06T15:55:25+01:00'
+lastmod: '2021-09-07T15:55:25+01:00'
 featured: no
 image:
   caption: ''
@@ -28,6 +28,7 @@ library(plotly)
 Now lets bring in our depth data. I used freely downloadable data from EMODnet (https://www.emodnet-bathymetry.eu/). This depth data will be in the form of a raster, which we can then turn into a matrix, assign an area to either be land (over 0m depth), or water (under 0 m depth)
 ```{r echo=TRUE}
 depth <- raster("depth.tif")
+depth <- aggregate(depth, fact = 5, fun = mean)
 land_rast <- reclassify(depth, cbind(-Inf, 0, NA), right=T)
 land = raster_to_matrix(land_rast)
 water_rast <- reclassify(depth, cbind(0, Inf,NA), right=F)
@@ -41,6 +42,6 @@ fig <- fig %>% add_surface(z = ~water) %>% add_surface(z = ~land, opacity = 0.98
   layout(scene = list(zaxis = list(title = 'Depth (m)')))
 fig
 ```
-As it's using complex data and plotting in 3D, it will take a few seconds to render. As a bonus, plotly allows us to manipulate the plot in 3D to see it from different angles and zoom in and out. Have a look around, but bare in mind it will be a bit laggy. 
+As it's using complex data and plotting in 3D, it will take a few seconds to render. The sand to reddish colours show land in increasing height, and yellow to blue increasing water depth. As a bonus, plotly allows us to manipulate the plot in 3D to see it from different angles and zoom in and out. Have a look around, but bare in mind it will be a bit laggy. 
 
 So, there you have it - a simple 3D visualisation of depth data. I used this to get a better idea of the complexity of the continental shelf edge where our deep diving marine mammal friends hang out. 
