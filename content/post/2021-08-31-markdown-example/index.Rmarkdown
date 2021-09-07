@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-For a soon-to-be submitted paper, I was called on to look at data for a deep-diving marine mammal. Depth normally influences their distribution, so I investigated depths in the study region. 
+For a soon-to-be submitted paper, I was called on to look at data for a deep-diving marine mammal. Depth normally influences their distribution, so I investigated depths in the study region of the Bay of Biscay, which borders the coast of France and Spain. 
 
 This code will bring in some depth data for an area, process this data in R, and plot it in 3D. 
 ```{r message=FALSE}
