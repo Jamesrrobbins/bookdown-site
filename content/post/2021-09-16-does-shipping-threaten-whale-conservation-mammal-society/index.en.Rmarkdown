@@ -43,8 +43,12 @@ For now, I have a bit more work to do, but I look forward to sharing final resul
 <u>References</u>
 
 Schoeman, R. P., Patterson-Abrolat, C. & Plön, S. A Global Review of Vessel Collisions With Marine Animals. Frontiers in Marine Science 7, 292 (2020).
+
 Peltier, H. et al. Monitoring of Marine Mammal Strandings Along French Coasts Reveals the Importance of Ship Strikes on Large Cetaceans: A Challenge for the European Marine Strategy Framework Directive. Frontiers in Marine Science 6, 486 (2019).
+
 Pirotta, V., Grech, A., Jonsen, I. D., Laurance, W. F. & Harcourt, R. G. Consequences of global shipping traffic for marine giants. Front. Ecol. Environ. 17, 39–47 (2019).
+
 Erbe, C. et al. The Effects of Ship Noise on Marine Mammals—A Review. Frontiers in Marine Science 6, 606 (2019).
+
 Vanderlaan, A. S. M. & Taggart, C. T. Vessel collisions with whales: The probability of lethal injury based on vessel speed. Mar. Mamm. Sci. 23, 144–156 (2007).
    
