@@ -42,7 +42,7 @@ experience:
     company_url: ''
     company_logo: org-mbr
     location: Plymouth, UK
-    date_start: '2015-12-01'
+    date_start: '2017-12-01'
     date_end: ''
     description: As associate editor, I handle manuscripts focusing on marine mammal, shark and other marine megafauna distribution. This involves reviewing manuscripts, contact with authors and reviewers, and making publication recommendations.
   - title: Visiting Researcher
