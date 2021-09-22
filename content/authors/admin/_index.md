@@ -14,10 +14,11 @@ education:
 email: ""
 highlight_name: false
 interests:
-- Marine mammal ecology
+- Ecology
 - Conservation
 - Data science techniques
 - Animal behaviour
+- Marine mammals
 organizations:
 - name: University of Portsmouth
   url: https://www.port.ac.uk/
@@ -45,7 +46,7 @@ superuser: true
 title: James R Robbins
 ---
 
-I am a marine mammal biologist currently undertaking a PhD at the University of Portsmouth (UK), investigating the risk of ship collisions with whales and other cetaceans (whales, dolphins and porpoises) in the north-east Atlantic. I'm broadly interested in human-induced impacts on the marine environment, polar ecology, animal behaviour and the conservation of marine vertebrates.
+I am an ecologist currently undertaking a PhD at the University of Portsmouth (UK), investigating the risk of ship collisions with whales and other cetaceans (whales, dolphins and porpoises) in the north-east Atlantic. I'm broadly interested in human-induced impacts on the marine environment, polar ecology, animal behaviour and the conservation of vertebrates.
 
 I utilize complex statistical and geospatial analysis techniques to identify the drivers of marine megafauna distribution, and overlap with human activities. I'm an associate editor for the journal Marine BIodiversity Records and an observer at inter-governmental meetings as part of the delegation of the Advisory Committee on the Protection of the Sea (ACOPS), primarily attending OSPAR Commission, Arctic Council and International Maritime Organization meetings.
 
