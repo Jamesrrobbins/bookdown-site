@@ -50,6 +50,6 @@ I am an ecologist currently undertaking a PhD at the University of Portsmouth (U
 
 I utilize complex statistical and geospatial analysis techniques to identify the drivers of marine megafauna distribution, and overlap with human activities. I'm an associate editor for the journal Marine BIodiversity Records and an observer at inter-governmental meetings as part of the delegation of the Advisory Committee on the Protection of the Sea (ACOPS), primarily attending OSPAR Commission, Arctic Council and International Maritime Organization meetings.
 
-I am an experienced field biologist, conducting intensive marine mammal monitoring work on ships and in breeding seal colonies. 
+I am an experienced field biologist, conducting intensive marine mammal monitoring work on ships and in breeding seal and seabird colonies. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
