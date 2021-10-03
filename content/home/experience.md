@@ -38,12 +38,20 @@ experience:
         * Simulating mitigation measures to save fin whales from fatal collisions
         * Understanding vessel crews' experience and opinions on mitigation measures 
   - title: Associate Editor
+    company: Journal of the Marine Biological Association of the United Kingdom
+    company_url: ''
+    company_logo: org-jmba
+    location: Plymouth, UK
+    date_start: '2021-10-03'
+    date_end: ''
+    description: Working with the editorial staff and board, I make decisions on the suitability of marine mammal manuscripts for the journal, and communicate with authors and reviewers. 
+  - title: Associate Editor
     company: Marine Biodiversity Records
     company_url: ''
     company_logo: org-mbr
     location: Plymouth, UK
     date_start: '2017-12-01'
-    date_end: ''
+    date_end: '2021-12-01'
     description: As associate editor, I handle manuscripts focusing on marine mammal, shark and other marine megafauna distribution. This involves reviewing manuscripts, contact with authors and reviewers, and making publication recommendations.
   - title: Visiting Researcher
     company: University of Plymouth
