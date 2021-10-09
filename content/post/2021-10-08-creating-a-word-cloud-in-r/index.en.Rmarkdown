@@ -1,0 +1,89 @@
+---
+title: Creating a word cloud in R
+author: James Robbins
+date: '2021-10-08'
+slug: creating-a-word-cloud-in-r
+categories:
+  - R
+  - programming
+tags:
+  - R
+  - programming
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-10-08T16:09:00+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+As part of a recent questionnaire (see https://www.jamesrobbins.org/post/calling-all-vessel-crews-and-managers-exploring-collisions-with-marine-wildlife-and-potential-solutions/), I was tasked with dealing with free text responses relating to challenges to conservation. To help get a sense of common words, I decided to create a word cloud using R. Thankfully Céline Van den Rul posted an excellent article on the subject, available here: https://towardsdatascience.com/create-a-word-cloud-with-r-bde3e7422e8a
+
+In this post, I will share my approach using wordcloud2. 
+
+Lets start with some data. In reality, I'm pulling responses from a google sheet with local authorisation tokens and processing from there, but for this post we will use some dummy data.
+
+First lets load our libraries. 
+```{r, warning=FALSE}
+suppressPackageStartupMessages({
+ 
+library(wordcloud2) #For the word clouds
+library(tm) #To get the text into manageable formats
+library(tidyverse) #For helpful pipes
+})
+```
+
+Now we will create some dummy data. Lets pretend we have a few responses from our questionnaire about the greatest challenges to stopping collisions between ships and animals at sea. 
+
+```{r echo=TRUE, warning=FALSE}
+text <-  c("Education of water users",
+                            "Knowing the risks",
+                            "Lack of enforcement",
+                            "Risks are uncertain",
+                            "Difficult to identify issue at time",
+                            "Sometimes knowledge is lacking",
+                            "Enforcement",
+                            "Education"
+                            )
+```
+
+So we have our responses, but we need to get it into a format that is useable for word clouds, and remove characters that we don't want (numbers, punctuation and extra spaces). We also want to ensure all of the words are in lower case, so that duplicate words are counted even if they are typed with capitals or not. 
+```{r echo=TRUE, warning=FALSE}
+docs <- Corpus(VectorSource(text))
+docs <- docs %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(stripWhitespace)
+docs <- tm_map(docs, content_transformer(tolower))
+docs <- tm_map(docs, removeWords, stopwords("english"))
+dtm <- TermDocumentMatrix(docs) 
+matrix <- as.matrix(dtm) 
+words <- sort(rowSums(matrix),decreasing=TRUE) 
+df <- data.frame(word = names(words),freq=words)
+```
+We now have some text which has been split up into individual words that are clean, and we have counted the number of occurrence of each word. Lets have a look.
+
+```{r echo=TRUE, warning=FALSE}
+head(df)
+```
+Brilliant. The last step is to make our wordcloud, using wordcloud2.
+
+```{r echo=TRUE, warning=FALSE}
+challenge_cloud <- wordcloud2(data=df, size=0.2, color='random-dark',backgroundColor="white", shape = 'circle')
+
+challenge_cloud #Plot the wordcloud
+
+
+```
+
+We can play around with the colour scheme and aesthetics until we like it.
+
+```{r echo=TRUE, warning=FALSE}
+challenge_cloud2 <- wordcloud2(data=df, size=0.5, color='random-dark',backgroundColor="black", shape = 'circle')
+
+challenge_cloud2 #Plot the wordcloud
+```
