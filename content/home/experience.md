@@ -29,13 +29,7 @@ experience:
     location: Stirling, UK
     date_start: '2022-01-17'
     date_end: ''
-    description: |2-
-        Broadly focussing on:
-        
-        * Investigating spatio-temporal changes in shipping intensity and ecological impacts
-        * Estimating co-occurrence of cetaceans and vessels in the north-east Atlantic
-        * Simulating mitigation measures to save fin whales from fatal collisions
-        * Understanding vessel crews' experience and opinions on mitigation measures 
+    description: Test
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
