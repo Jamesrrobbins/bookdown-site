@@ -29,8 +29,7 @@ experience:
     location: Stirling, UK
     date_start: '2021-01-17'
     date_end: ''
-    description: |2-
-        
+    description: 
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
