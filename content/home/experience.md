@@ -27,7 +27,7 @@ experience:
     company_url: ''
     company_logo: 
     location: Stirling, UK
-    date_start: '2019-10-01'
+    date_start: '2022-01-17'
     date_end: ''
     description: |2-
         Broadly focussing on:
