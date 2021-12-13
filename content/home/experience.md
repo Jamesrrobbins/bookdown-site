@@ -25,7 +25,7 @@ experience:
   - title: Senior ecological modeller
     company: Natural power
     company_url: ''
-    company_logo: org-uop
+    company_logo: 
     location: Stirling, UK
     date_start: '2019-10-01'
     date_end: ''
