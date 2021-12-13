@@ -22,6 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Senior ecological modeller
+    company: Natural power
+    company_url: ''
+    company_logo: org-uop
+    location: Stirling, UK
+    date_start: '2019-10-01'
+    date_end: ''
+    description: |2-
+        Broadly focussing on:
+        
+        * Investigating spatio-temporal changes in shipping intensity and ecological impacts
+        * Estimating co-occurrence of cetaceans and vessels in the north-east Atlantic
+        * Simulating mitigation measures to save fin whales from fatal collisions
+        * Understanding vessel crews' experience and opinions on mitigation measures 
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
