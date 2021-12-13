@@ -29,7 +29,7 @@ experience:
     location: Stirling, UK
     date_start: '2022-01-17'
     date_end: ''
-    description: Test
+    description: Providing statistical and ecological modelling solutions to support renewable energy projects.
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
