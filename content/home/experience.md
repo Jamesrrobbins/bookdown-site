@@ -25,11 +25,17 @@ experience:
   - title: Senior ecological modeller
     company: Natural power
     company_url: ''
-    company_logo: 
+    company_logo: org-np
     location: Stirling, UK
     date_start: '2022-01-17'
     date_end: ''
-    description:Providing statistical and ecological modelling solutions to support renewable energy.
+    description: |2-
+        Broadly focussing on:
+        
+        * Investigating spatio-temporal changes in shipping intensity and ecological impacts
+        * Estimating co-occurrence of cetaceans and vessels in the north-east Atlantic
+        * Simulating mitigation measures to save fin whales from fatal collisions
+        * Understanding vessel crews' experience and opinions on mitigation measures 
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
