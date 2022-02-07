@@ -1,8 +1,8 @@
 ---
-bio: My research interests include conservation, spatial modeling and marine mammal ecology. 
+bio: My research interests include conservation, spatial modeling and marine megafauna ecology. 
 education:
   courses:
-  - course: PhD in Marine Ecology
+  - course: PhD in Marine Conservation
     institution: University of Portsmouth
     year: 2019-2022
   - course: MSc in Marine Biology
@@ -18,7 +18,7 @@ interests:
 - Conservation
 - Data science techniques
 - Animal behaviour
-- Marine mammals
+- Marine megafauna
 organizations:
 - name: University of Portsmouth
   url: https://www.port.ac.uk/
@@ -46,9 +46,11 @@ superuser: true
 title: James R Robbins
 ---
 
-I am an ecologist currently undertaking a PhD at the University of Portsmouth (UK), investigating the risk of ship collisions with whales and other cetaceans (whales, dolphins and porpoises) in the north-east Atlantic. I'm broadly interested in human-induced impacts on the marine environment, polar ecology, animal behaviour and the conservation of vertebrates.
+I am a quantitative ecologist, finishing up a PhD at the University of Portsmouth (UK), investigating the risk of ship collisions with whales and other cetaceans (whales, dolphins and porpoises) in the north-east Atlantic. I'm broadly interested in human-induced impacts on the marine environment, conservation and behaviour of marine vertebrates. 
 
-I utilize complex statistical and geospatial analysis techniques to identify the drivers of marine megafauna distribution, and overlap with human activities. I'm an associate editor for the journal Marine BIodiversity Records and an observer at inter-governmental meetings as part of the delegation of the Advisory Committee on the Protection of the Sea (ACOPS), primarily attending OSPAR Commission, Arctic Council and International Maritime Organization meetings.
+I am now a Senior Ecological Modeller for Natural Power, a renewable energy consultancy and service provider. I provide analysis and modelling services for clients, with a focus on providing insights into potential ecological impacts from proposed offshore wind projects. This includes industry standard collision risk modelling and more bespoke services.
+
+I'm an associate editor for the journal Marine BIodiversity Records and an observer at inter-governmental meetings as part of the delegation of the Advisory Committee on the Protection of the Sea (ACOPS), primarily attending OSPAR Commission, Arctic Council and International Maritime Organization meetings.
 
 I am an experienced field biologist, conducting intensive marine mammal monitoring work on ships and in breeding seal and seabird colonies. 
 
