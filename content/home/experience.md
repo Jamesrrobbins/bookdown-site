@@ -29,7 +29,7 @@ experience:
     location: Stirling, UK
     date_start: '2022-01-17'
     date_end: ''
-    description: Providing statistical and ecological modelling solutions to support renewable energy projects.
+    description: Providing statistical and ecological modelling solutions to support renewable energy projects. Using industry standard techniques, including stochastic Collision Risk Modelling for birds in proximity to wind-farm developments, colony apportioning, and impact analysis. 
   - title: PhD researcher
     company: University of Portsmouth
     company_url: ''
